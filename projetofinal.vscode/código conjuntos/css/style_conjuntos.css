@@ -1,0 +1,54 @@
+
+*{
+    margin: 0%;
+}
+
+body{
+    background-image: url("/código principal/imagens/fundo_site.jpg");
+}
+
+#imagem_header{
+    width: 120px;
+    border-radius: 90px;
+}
+
+header{
+   background-color:  rgb(238, 210, 179);
+   display: flex;
+   margin-bottom: 40px;
+}
+
+#titulo_header{
+    margin-top: 30px;
+}
+
+.todos{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+
+.imagem{
+    width: 500px;
+    border-radius: 20px;
+}
+
+.texto{
+    font-weight: bolder;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+#valor{
+    color: brown;
+}
+
+footer{
+    background-color: rgb(238, 210, 179);
+    text-align: center;
+    padding: 30px;
+    margin-top: 80px;
+}
+

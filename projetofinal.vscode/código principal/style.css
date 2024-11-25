@@ -1,0 +1,180 @@
+*{
+    margin: 0%;
+}   
+
+body{
+    background-image: url("../código principal/imagens/fundo_site.jpg");
+}
+
+header{
+    background-color: rgb(238, 210, 179);
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+#titulo_header{
+    display: flex;
+}
+
+#imagem_header{
+    width: 120px;
+    border-radius: 80px;
+}
+
+#titulo_header_principal{
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#subtitulo_header{
+    display: flex;
+    justify-content: left;
+}
+
+
+#links_header{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#pesquisa{
+    padding:10px;
+    background-color: rgb(252, 239, 209);
+    margin-top: 40px;
+    margin-bottom: 35px;
+    border-radius: 50px;
+}
+
+#texto{
+ padding: 60px;
+ background-color:rgb(255, 218, 179) ;
+ border-radius: 60px;
+ margin-right: 60px;
+ margin-left: 60px;
+ margin-top: 70px;
+ margin-bottom: 70px;
+}
+
+#titulo_texto{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+
+#corpo_texto{
+    font-weight: bolder;
+}
+
+#atencao{
+    font-style: italic;
+}
+
+#link_vestidos{
+    position: relative;
+}
+
+#titulo_vestidos{
+    position: absolute;
+}
+
+#imagem_vestido{
+    width: 500px;
+    border-radius: 20px;
+}
+
+#link_conjuntos{
+    position: relative;
+}
+
+#titulo_conjuntos{
+    position:absolute
+}
+
+#imagem_conjuntos{
+    width: 500px;
+    border-radius: 20px;
+}
+
+#link_promoções{
+    position: relative;
+}
+
+#titulo_promoções{
+    position: absolute;
+}
+
+#imagem_promoções{
+    width: 500px;
+    border-radius: 20px;
+}
+
+#links{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+#login{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(255, 218, 179);
+    margin-top: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 60px;
+    margin-bottom: 60px;
+}
+
+#titulo-login{
+    font-weight: bolder;
+    font-size: large;
+}
+
+#texto_login{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#texto_cadastro{
+    font-style: italic;
+    font-weight: bolder ;
+}
+
+
+#titulo_login{
+    font-weight: bolder;
+    font-size: large;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#texto_login{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+
+#texto_cadastro{
+    font-style: italic;
+    font-weight: bolder ;
+    margin-top: 10px;
+}
+
+#nome_usuario{
+    border-radius: 5px;
+    width: 220px;
+    height: 20px;
+}
+
+#senha_usuario{
+    border-radius: 5px;
+    width: 220px;
+    height: 20px;
+}
+
+footer{
+    background-color: rgb(238, 210, 179);
+    text-align: center;
+    padding: 30px;
+}

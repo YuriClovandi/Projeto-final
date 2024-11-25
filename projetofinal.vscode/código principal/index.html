@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Tropicana</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../código principal/favicon.ico" type="favicon.ico">
+</head>
+<body>
+
+<script src="script.js"></script>
+
+<header>
+    <div id="titulo_header">
+
+        <div>
+            <img id="imagem_header" src="/código principal/imagens/foto.PNG">
+        </div>
+
+        <div id="titulo_header_principal">
+            <h2 id="subtitulo_header">Tropicana</h2>
+            <h4>A estampa do Brasil</h4>
+        </div>
+    </div>
+
+    <div id="pesquisa">
+        <input type="text" id="usuario" placeholder="Digite aqui o que busca:">
+        <button onclick="pesquisa()">pesquisar</button>
+    </div>
+
+    <div id="links_header">
+        <a href="../código vestidos/html/index_vestido.html">vestidos</a>
+        <a href="../código conjuntos/html/index_conjunto.html">conjuntos</a>
+        <a href="../código promoções/html/index_promoções.html">promoções</a>
+    </div>
+</header>
+
+<div id="texto">
+    <h2 id="titulo_texto">Bem-Vindas!</h2>
+    <div id="corpo_texto">
+        <p>  Somos uma loja cuja as peças são feitas com muito amor, dedicação e tradição. Nossa moda que revela a identidade feminina brasileira começou em 1960, em um bairro pequeno do Rio de Janeiro e veio para Brasília nos anos 2000 junto a minha mãe em busca de melhores condições de vida na capital do Brasil, algo que tenho orgulho de dizer que com muito esforço e suor, deu certo!🥰</p>
+        <p>  Por isso, com muito carinho, digo que aqui estão os vestidos e conjuntos que confeccionamos para vocês, mulheres lindas de um país lindo. Ah! Fique de olho também nas promoções😉
+        </p>
+        <p id="atencao">🔴Atenção: não vendemos o conjunto separadamente, como só a saia, só o short ou só a blusa!</p>
+    </div>
+</div>
+
+<div id="links">
+    <div id="link_vestidos">
+        <div id="titulo_vestidos">
+            <h1>Vestidos</h1>
+        </div>
+
+        <a href="../código vestidos/html/index_vestido.html">
+            <img id="imagem_vestido" src="../código vestidos/imagens/vestido_link.webp">
+        </a>
+    </div>
+
+    <div id="link_conjuntos">
+        <div id="titulo_conjuntos">
+            <h1>Conjuntos</h1>
+        </div>
+
+        <a href="../código conjuntos/html/index_conjunto.html">
+            <img id="imagem_conjuntos" src="../código conjuntos/imagens/conjuntos_link.webp">
+        </a>
+    </div>
+
+    <div id="link_promoções">
+        <div id="titulo_promoções">
+          <h1>Promoções</h1>
+        </div>
+
+        <a href="../código promoções/html/index_promoções.html">
+            <img id="imagem_promoções" src="../código promoções/imagens/promoção_link.webp">
+        </a>
+    </div>
+</div>
+
+<div id="login">
+    <h2 id="titulo_login">Login do nosso site</h2>
+    <p id="texto_login">Gostaria de receber descontos em suas compras? Então cadastre-se em nosso site e assim, você receberá cupons de descontos que crescem dependendo do valor de suas compras.</p>
+
+    <div id="login_usuario()">
+        <form action="/enviar" method="post" onsubmit="return false;">
+            <input id="nome_usuario" type="text" placeholder="Insira seu nome" required>
+            <input id="senha_usuario" type="password" placeholder="Insira sua senha" required>
+            <button type="button" onclick="login_usuario()">Login</button>
+            <p id="texto_cadastro">Não tem conta em nossa loja?</p>
+            <a href="/código cadastro/index_cadastro.html">Cadastre-se</a>
+        </form>
+    </div>
+
+</div>
+
+<footer>
+<p>Contato: 61 9 4002-8922</p>
+<p>E-mail: loja.tropicana@gmail.com</p>
+</footer>
+
+
+</body>
+</html>

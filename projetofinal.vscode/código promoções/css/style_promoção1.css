@@ -1,0 +1,87 @@
+*{
+    margin: 0%;
+}
+
+body{
+    background-image: url("/código principal/imagens/fundo_site.jpg");
+    display: flex;
+    flex-direction: column;
+    min-width: 100vh;
+}
+
+header{
+    background-color:  rgb(238, 210, 179);
+    bottom: 40px;
+    display: flex;
+}
+
+#titulo_header{
+    margin-top: 30px;
+}
+
+#imagem_header{
+    width: 120px;
+    border-radius: 80px;
+}
+
+#elementos{
+    display: flex;
+}
+
+#imagens{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+#titulo{
+    margin-top: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#imagem_1{
+    width: 500px;
+    border-radius: 15px;
+    margin-top: 60px;
+}
+
+#imagem_2{
+    width: 500px;
+    border-radius: 15px;
+    margin-top: 60px;
+}
+
+#texto{
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+   text-align: center;
+    font-size: 25px;
+    margin-top: 160px;
+}
+
+#tamanhos{
+    margin-top: 50px;
+}
+
+#preço{
+    margin-top: 50px;
+}
+
+#valor{
+    color: brown;
+}
+
+#botao{
+    margin-top: 30px;
+}
+
+footer{
+    background-color: rgb(238, 210, 179);
+    text-align: center;
+    padding: 30px;
+    margin-top: 70px;
+}
